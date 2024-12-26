@@ -25,5 +25,8 @@ for cmd in cmds:
 
 s_temp.add((0, 0))
 
+# Part 1
 print(len(temp))
+
+# Part 2
 print(len(s_temp) - 1)

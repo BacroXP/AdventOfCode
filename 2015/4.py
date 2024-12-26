@@ -20,5 +20,8 @@ while len(both) != 2:
     
     i += 1
 
+# Part 1
 print(both[1])
+
+# Part 2
 print(both[2])
