@@ -14,11 +14,8 @@ def sub_grid() -> list[list[list[str]]]:
 
 
 def nums(lines: list[str], sort: bool = False) -> list[list[int]]:
-    return [
-        sorted([int(x) for x in re.findall(r'-?\d+', line)]) if sort 
-        else [int(x) for x in re.findall(r'-?\d+', line)]
-        for line in lines
-    ]
+    return [sorted([int(x) for x in re.findall(r'-?\d+', line)]) if sort else [int(x) for x in re.findall(r'-?\d+', line)] for line in lines]
+
 
 def pairs(array: list[any]) -> list[tuple[any, any]]:
     length = len(array)
